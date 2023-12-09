@@ -1,0 +1,52 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #000800;
+ text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+ 
+    padding: 20px;
+    border-radius: 5px;
+
+    background-image: url('./img/todo1.jpg');
+    background-size: 70px ;
+}
+
+h1 {
+    font-size: 35px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #000800;
+    color:white;
+    border: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
